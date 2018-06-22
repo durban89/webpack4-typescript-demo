@@ -1,0 +1,27 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "jquery": true
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+        "react",
+        "html"
+    ],
+    "extends": [
+        "airbnb"
+    ],
+    "rules": {
+        "no-underscore-dangle": 0,
+        "import/no-extraneous-dependencies": ["error", {
+            "devDependencies": true
+        }]
+
+    },
+    "globals": {
+        "Actions": true
+    },
+
+}
